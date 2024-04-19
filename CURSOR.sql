@@ -31,7 +31,7 @@ BEGIN
         END IF;
         
    
-		SET nombres_concatenados = CONCAT(nombres_concatenados, nombre_usuarios, ' ', apellido_usuarios, '; ');
+	SET nombres_concatenados = CONCAT(nombres_concatenados, nombre_usuarios, ' ', apellido_usuarios, '; ');
         
     END LOOP;
     -- Asignar el resultado a la variable de salida
